@@ -1,0 +1,21 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.AJ's iPod touch" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="EightBot.AutoExpandAndCollapse/ExpandableSource.cs">
+    <Files>
+      <File FileName="EightBot.AutoExpandAndCollapse/ExpandableTableViewContainer.cs" Line="47" Column="47" />
+      <File FileName="EightBot.AutoExpandAndCollapse/AppDelegate.cs" Line="94" Column="94" />
+      <File FileName="EightBot.AutoExpandAndCollapse/ExpandableSource.cs" Line="42" Column="42" />
+      <File FileName="EightBot.AutoExpandAndCollapse/ExpandableTableViewCell.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="../PDRMobile/PDRMobile.MobileCore/PDRMobileRepository.cs" line="77" offsetX="694" offsetY="1140" expression="addAccount" liveUpdate="False" />
+    <Watch file="../PDRMobile/PDRMobile.iOS/ViewControllers/Login.cs" line="179" offsetX="853" offsetY="2670" expression="AppDelegate.Current.Window" liveUpdate="False" />
+    <Watch file="../PDRMobile/PDRMobile.API.Client/APIClient.cs" line="418" offsetX="260" offsetY="6255" expression="Client.DefaultRequestHeaders" liveUpdate="False" />
+    <Watch file="../PDRMobile/PDRMobile.MobileCore/ViewModels/Contacts/Contact.cs" line="140" offsetX="457" offsetY="2085" expression="validationResults" liveUpdate="False" />
+    <Watch file="../Artsonia/Artsonia.Core/API/ApiClient.cs" line="77" offsetX="450" offsetY="1140" expression="_sessionManager" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+</Properties>

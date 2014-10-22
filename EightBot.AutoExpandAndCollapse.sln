@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cirrious.FluentLayouts.Touch", "..\Archive\slodge\Cirrious.FluentLayout.git\Cirrious.FluentLayout\Cirrious.FluentLayouts.Touch.csproj", "{75D2DA9D-DFD4-49A1-98FB-FE0F0677EF0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EightBot.AutoExpandAndCollapse", "EightBot.AutoExpandAndCollapse\EightBot.AutoExpandAndCollapse.csproj", "{AD1CDF03-3511-4340-8C13-562BDB46331D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75D2DA9D-DFD4-49A1-98FB-FE0F0677EF0F}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{75D2DA9D-DFD4-49A1-98FB-FE0F0677EF0F}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
+		{75D2DA9D-DFD4-49A1-98FB-FE0F0677EF0F}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{75D2DA9D-DFD4-49A1-98FB-FE0F0677EF0F}.AppStore|iPhone.Build.0 = Release|Any CPU
+		{75D2DA9D-DFD4-49A1-98FB-FE0F0677EF0F}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{75D2DA9D-DFD4-49A1-98FB-FE0F0677EF0F}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{75D2DA9D-DFD4-49A1-98FB-FE0F0677EF0F}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{75D2DA9D-DFD4-49A1-98FB-FE0F0677EF0F}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{75D2DA9D-DFD4-49A1-98FB-FE0F0677EF0F}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{75D2DA9D-DFD4-49A1-98FB-FE0F0677EF0F}.Release|iPhone.Build.0 = Release|Any CPU
+		{75D2DA9D-DFD4-49A1-98FB-FE0F0677EF0F}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{75D2DA9D-DFD4-49A1-98FB-FE0F0677EF0F}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{AD1CDF03-3511-4340-8C13-562BDB46331D}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{AD1CDF03-3511-4340-8C13-562BDB46331D}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{AD1CDF03-3511-4340-8C13-562BDB46331D}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{AD1CDF03-3511-4340-8C13-562BDB46331D}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{AD1CDF03-3511-4340-8C13-562BDB46331D}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{AD1CDF03-3511-4340-8C13-562BDB46331D}.Debug|iPhone.Build.0 = Debug|iPhone
+		{AD1CDF03-3511-4340-8C13-562BDB46331D}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{AD1CDF03-3511-4340-8C13-562BDB46331D}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{AD1CDF03-3511-4340-8C13-562BDB46331D}.Release|iPhone.ActiveCfg = Release|iPhone
+		{AD1CDF03-3511-4340-8C13-562BDB46331D}.Release|iPhone.Build.0 = Release|iPhone
+		{AD1CDF03-3511-4340-8C13-562BDB46331D}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{AD1CDF03-3511-4340-8C13-562BDB46331D}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = EightBot.AutoExpandAndCollapse\EightBot.AutoExpandAndCollapse.csproj
+	EndGlobalSection
+EndGlobal
