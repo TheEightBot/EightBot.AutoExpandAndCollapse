@@ -1,0 +1,2 @@
+EightBot.AutoExpandAndCollapse
+==============================
