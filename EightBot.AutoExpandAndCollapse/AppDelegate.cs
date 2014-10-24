@@ -29,7 +29,7 @@ namespace EightBot.AutoExpandAndCollapse
 			window = new UIWindow (UIScreen.MainScreen.Bounds);
 			
 			// If you have defined a root view controller, set it here:
-			window.RootViewController = new UINavigationController(new ExpandableTableViewContainer());
+			window.RootViewController = new UINavigationController(new ScrollViewExpandAndCollapse());
 			
 			// make the window visible
 			window.MakeKeyAndVisible ();

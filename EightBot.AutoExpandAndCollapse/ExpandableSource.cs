@@ -15,10 +15,10 @@ namespace EightBot.AutoExpandAndCollapse
 		{
 		}
 
-		public override float EstimatedHeightForFooter (UITableView tableView, int section)
-		{
-			return UITableView.AutomaticDimension;
-		}
+//		public override float EstimatedHeightForFooter (UITableView tableView, int section)
+//		{
+//			return UITableView.AutomaticDimension;
+//		}
 
 		public override UITableViewCell GetCell (UITableView tableView, MonoTouch.Foundation.NSIndexPath indexPath)
 		{
@@ -38,23 +38,27 @@ namespace EightBot.AutoExpandAndCollapse
 
 		private int selectedRow = -1;
 
-		public override float GetHeightForRow (UITableView tableView, MonoTouch.Foundation.NSIndexPath indexPath)
-		{
-			return selectedPaths.Contains(indexPath) ? 44f * 3f : UITableView.AutomaticDimension;
-		}
+//		public override float GetHeightForRow (UITableView tableView, MonoTouch.Foundation.NSIndexPath indexPath)
+//		{
+//			//var cell = tableView.CellAt (indexPath) as ExpandableTableViewCell;
+//
+//			//return cell != null 
+//			//	? cell.ContentView.SystemLayoutSizeFittingSize (UIView.UILayoutFittingCompressedSize).Height
+//			return UITableView.AutomaticDimension;
+//		}
 
 		public override void RowSelected (UITableView tableView, MonoTouch.Foundation.NSIndexPath indexPath)
 		{
 			var cell = tableView.CellAt (indexPath) as ExpandableTableViewCell;
 
 
+			cell.Label2.Text += " " + cell.Label2.Text;
+
 			if(selectedPaths.Contains(indexPath))
 				selectedPaths.Remove(indexPath);
 			else
 				selectedPaths.Add(indexPath);
-				
-			//tableView.SetEditing (true, true);
-			//tableView.SetEditing (false, true);
+
 			tableView.BeginUpdates ();
 			tableView.EndUpdates ();
 
